@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+body {background-color: #FEC40D;
+  font-family: sans-serif;
+}
+
+img {
+  display: flex;
+  max-width: 100%;
+}
+
+.flex{
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.icon{
+  flex-basis: 25%;
+  border: 1px solid #000;
+
+}
+.text{
+  flex-basis: 25%;
+  border: 1px solid#000;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* For smaller screens */
+@media (max-width:700px {
+  background-color: white;
+  width:100%;
+  })
